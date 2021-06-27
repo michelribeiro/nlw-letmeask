@@ -12,6 +12,16 @@
         color: #29292e;
     }
 
+    &.highlighted {
+        background: #f4f0ff;
+        border: solid 1px #835afd
+    }
+
+    &.answered {
+        background: #DBDCDD;
+        border: solid 1px #DBDCDD
+    }
+
     footer {
         display: flex;
         justify-content: space-between;
@@ -32,6 +42,11 @@
                 font-size: 14px;
             }
 
+        }
+
+        > div {
+            display: flex;
+            gap: 16px;
         }
 
         button {
